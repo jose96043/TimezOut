@@ -7,11 +7,12 @@ import android.view.MotionEvent;
 import com.portocarrero.timeout.TimezOut;
 import com.portocarrero.timeout.TimezOutListener;
 
-public class MainActivity extends AppCompatActivity implements TimezOutListener {
+  public class MainActivity extends AppCompatActivity implements TimezOutListener {
 
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+    TimezOut.startTimer();
   }
 
   @Override public boolean onTouchEvent(MotionEvent event) {
