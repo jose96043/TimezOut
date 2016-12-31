@@ -1,7 +1,7 @@
 # TimezOut
 Android implementation for timeout event. This library was born after not been able to find how other people have implemented inactivity timers on their applications. Hopefully this can help someone having to develop something along those lines.
 
-This can library can be used in many scenarios such as inactivity timeout when combined with onTouchEvent. Thanks to the callback interface, scenarios such as logout because of inactvity can be handled. 
+This library can be used in many scenarios such as an inactivity timeout when combined with onTouchEvent. Thanks to the callback interface, scenarios such as logout because of inactvity can be handled. 
 
 ## Usage
 
